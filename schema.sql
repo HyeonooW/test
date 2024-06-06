@@ -1,0 +1,15 @@
+CREATE TABLE uploads (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    original_filename VARCHAR(255) NOT NULL,
+    file_path VARCHAR(255) NOT NULL,
+    upload_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE output (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    upload_id INT,
+    filename VARCHAR(255) NOT NULL,
+    file_path VARCHAR(255) NOT NULL,
+    recovery_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (upload_id) REFERENCES uploads(id) ON DELETE CASCADE
+);

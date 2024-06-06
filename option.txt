@@ -1,0 +1,28 @@
+SearchOptions {
+  SearchMode "search"
+  Verbose "yes"
+  Log "yes"
+  KeepCorruptedFiles "no"
+  ExpertMode "no"
+  Paranoid "no"
+  AllowPartialLastCylinder "yes"
+  SaveSettings "yes"
+}
+
+FileOpts {
+  FileTypes {
+    Jpg "yes"
+    Png "yes"
+    Gif "yes"
+    Pdf "yes"
+    Doc "yes"
+    Xls "yes"
+    Ppt "yes"
+    Zip "yes"
+    Cr2 "yes"  # Canon RAW
+    Nrw "yes"  # Nikon RAW
+    Raf "yes"  # Fuji RAW
+    Rw2 "yes"  # Panasonic RAW
+    # 필요한 경우 더 많은 파일 유형을 추가
+  }
+}

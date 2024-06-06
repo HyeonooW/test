@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Recovery</title>
+</head>
+<body>
+  <h1>File Recovery</h1>
+
+  <h2>Upload a new file</h2>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required />
+    <button type="submit">Upload</button>
+  </form>
+
+  <h2>Uploaded Files</h2>
+  <ul>
+    <% uploads.forEach(function(upload) { %>
+    <li>
+      <%= upload.original_filename %>
+      <form
+        action="/delete/<%= upload.id %>"
+        method="post"
+        style="display: inline"
+      >
+        <button type="submit">Delete</button>
+      </form>
+      <a href="#" onclick="openRecoverPopup('<%= upload.id %>'); return false;">Recover</a>
+    </li>
+    <% }); %>
+  </ul>
+
+  <h2>Recovered Files</h2>
+  <ul>
+    <% if (recoveredFiles && recoveredFiles.length) { %> <%
+    recoveredFiles.forEach(function(folder) { %>
+    <li>
+      <%= folder %>
+      <a href="/results/<%= folder %>">View Results</a>
+    </li>
+    <% }); %> <% } else { %>
+    <li>No recovered files found.</li>
+    <% } %>
+  </ul>
+
+  <script>
+    function openRecoverPopup(uploadId) {
+      var url = "/recover/" + uploadId;
+      var popup = window.open(url, "recoverPopup", "width=600,height=800");
+      popup.document.write(`
+        <html>
+        <head>
+            <title>복구 가이드라인</title>
+        </head>
+        <body>
+            <p>복구 가이드라인 제공</p>
+            <img src="/Guide_image/Rpaka.jpg" alt="알파카">
+        </body>
+        </html>
+    `);
+    }
+  </script>
+</body>
+</html>

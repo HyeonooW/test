@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recovery Results</title>
+  </head>
+  <body>
+    <h1>Recovery Results</h1>
+    <ul>
+      <% files.forEach(function(file) { %>
+      <li>
+        <a href="/download/<%= file.uploadId %>/<%= file.filename %>"
+          ><%= file.filename %></a
+        >
+      </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

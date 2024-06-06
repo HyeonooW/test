@@ -1,0 +1,2333 @@
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:15:33 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716563712905-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:15:52 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716563712905-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716563712905-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:18:29 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716563712905-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716563712905-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2.2/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2.2/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2.2/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:19:43 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\2 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716563712905-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:24:41 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\3 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716564261723-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716564261723-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\3.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\3.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\3.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:28:32 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\4 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716564494483-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716564494483-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\4.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\4.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\4.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:31:07 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\5 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716564645300-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716564645300-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\5.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\5.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\5.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:37:44 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\6 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565049644-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565049644-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\6.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\6.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\6.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:39:18 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\7 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565140878-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565140878-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\7.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\7.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\7.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:42:59 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\8 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565363324-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565363324-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\8.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\8.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\8.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:44:42 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\9 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565465169-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565465169-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\9.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\9.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\9.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:47:20 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\10 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565618903-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716565618903-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Carve free space only.
+fat16_remove_used_space
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\10.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +1 file
+txt: 1/1 recovered
+Total: 1 file found
+
+868992 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 00:53:53 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\11 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716566010196-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716566010196-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\11.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\11.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\11.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 01:02:26 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\12 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716566530301-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716566530301-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\12.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\12.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\12.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Sat May 25 01:03:35 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\13 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716566600883-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716566600883-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\13.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\13.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\13.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 14:32:23 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\14 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716787917544-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716787917544-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\14.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\14.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\14.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 14:37:38 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\15 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788239260-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788239260-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\15.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\15.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\15.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 14:42:58 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\16 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788559964-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788559964-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\16.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\16.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\16.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 14:45:38 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\17 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788717887-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788717887-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\17.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\17.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\17.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+Interface File Select
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 14:48:48 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\18 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788911457-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716788911457-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\18.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\18.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\18.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 14:53:52 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\19 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716789212311-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716789212311-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\19.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\19.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\19.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 14:56:13 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\20 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716789349713-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716789349713-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\20.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\20.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\20.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 15:04:17 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\21 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716789835926-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716789835926-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\21.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\21.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\21.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 15:11:20 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\22 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716790261424-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716790261424-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\22.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\22.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\22.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 15:15:19 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\23 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716790498862-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716790498862-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\23.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\23.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\23.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 15:22:22 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716790917991-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716790917991-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+Pass 0 (blocksize=4096) STATUS_FIND_OFFSET
+blocksize=4096, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=4096) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f0000016.mft	 144-151
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097152.mft	 2097280-2097287
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097160.mft	 2097288-2097295
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097168.mft	 2097296-2097303
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097176.mft	 2097304-2097311
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097200.mft	 2097328-2097335
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097208.mft	 2097336-2097343
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097216.mft	 2097344-2097351
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097224.mft	 2097352-2097359
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\recovered_files\25.1/f2097232.mft	 2097360-2097367
+Elapsed time 0h00m00s
+Pass 1 +0 file
+Total: 0 files found
+
+2201392 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon May 27 15:39:28 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\26 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716791929068-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716791929068-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\26.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\26.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\26.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m00s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 12:17:59 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\28 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716866234963-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 12:18:23 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\29 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716866288293-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 12:20:45 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\30 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716866425574-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716866425574-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 19:06:10 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31 /cmd C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716890750877-sibal.001 search C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716890750877-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg - 476 B - CHS 1 255 63 (RO), sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716890750877-sibal.001 - 1572 MB / 1500 MiB (RO)
+Partition table type: Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+blocksize=512, offset=0
+Elapsed time 0h00m01s
+Pass 1 (blocksize=512) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f0000016.mft	 144-145
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f0000018.mft	 146-147
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f0000020.mft	 148-149
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f0000022.mft	 150-151
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1248749.xz	 1248877-1249520
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1249393.xz	 1249521-1250793
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1250666.xz	 1250794-1264090
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1263963.xz	 1264091-1273784
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1273657.xz	 1273785-1277971
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1277844.xz	 1277972-1278113
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1277986.xz	 1278114-1280038
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1279911.xz	 1280039-1286545
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1286418.xz	 1286546-1298658
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1298531.xz	 1298659-1299070
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1298943.xz	 1299071-1299825
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1299698.xz	 1299826-1303912
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1303785.xz	 1303913-1314882
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1314755.xz	 1314883-1315637
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f1315510.xz	 1315638-2079981
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2079955.mft	 2080083-2080084
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2096985.txt	 2097113-2097114
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097152.mft	 2097280-2097281
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097154.mft	 2097282-2097283
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097156.mft	 2097284-2097285
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097158.mft	 2097286-2097287
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097160.mft	 2097288-2097289
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097162.mft	 2097290-2097291
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097164.mft	 2097292-2097293
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097166.mft	 2097294-2097295
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097168.mft	 2097296-2097297
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097170.mft	 2097298-2097299
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097172.mft	 2097300-2097301
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097174.mft	 2097302-2097303
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097176.mft	 2097304-2097305
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097178.mft	 2097306-2097307
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097180.mft	 2097308-2097309
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097182.mft	 2097310-2097311
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097200.mft	 2097328-2097329
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097202.mft	 2097330-2097331
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097204.mft	 2097332-2097333
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097206.mft	 2097334-2097335
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097208.mft	 2097336-2097337
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097210.mft	 2097338-2097339
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097212.mft	 2097340-2097341
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097214.mft	 2097342-2097343
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097216.mft	 2097344-2097345
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097218.mft	 2097346-2097347
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097220.mft	 2097348-2097349
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097222.mft	 2097350-2097351
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097224.mft	 2097352-2097353
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097226.mft	 2097354-2097355
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097228.mft	 2097356-2097357
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097230.mft	 2097358-2097359
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097232.mft	 2097360-2097361
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097234.mft	 2097362-2097363
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2097236.mft	 2097364-2097365
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\31.1/f2197261.txt	 2197389-2197389
+Elapsed time 0h00m03s
+Pass 1 +17 files
+xz: 15/15 recovered
+txt: 2/2 recovered
+Total: 17 files found
+
+1370284 sectors contain unknown data, 0 invalid files found and rejected.
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 19:08:08 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32 /cmd C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716890872802-sibal.001 search C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716890872802-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg - 476 B - CHS 1 255 63 (RO), sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716890872802-sibal.001 - 1572 MB / 1500 MiB (RO)
+Partition table type: Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+blocksize=512, offset=0
+Elapsed time 0h00m01s
+Pass 1 (blocksize=512) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f0000016.mft	 144-145
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f0000018.mft	 146-147
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f0000020.mft	 148-149
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f0000022.mft	 150-151
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1248749.xz	 1248877-1249520
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1249393.xz	 1249521-1250793
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1250666.xz	 1250794-1264090
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1263963.xz	 1264091-1273784
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1273657.xz	 1273785-1277971
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1277844.xz	 1277972-1278113
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1277986.xz	 1278114-1280038
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1279911.xz	 1280039-1286545
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1286418.xz	 1286546-1298658
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1298531.xz	 1298659-1299070
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1298943.xz	 1299071-1299825
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1299698.xz	 1299826-1303912
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1303785.xz	 1303913-1314882
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1314755.xz	 1314883-1315637
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f1315510.xz	 1315638-2079981
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2079955.mft	 2080083-2080084
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2096985.txt	 2097113-2097114
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097152.mft	 2097280-2097281
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097154.mft	 2097282-2097283
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097156.mft	 2097284-2097285
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097158.mft	 2097286-2097287
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097160.mft	 2097288-2097289
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097162.mft	 2097290-2097291
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097164.mft	 2097292-2097293
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097166.mft	 2097294-2097295
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097168.mft	 2097296-2097297
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097170.mft	 2097298-2097299
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097172.mft	 2097300-2097301
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097174.mft	 2097302-2097303
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097176.mft	 2097304-2097305
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097178.mft	 2097306-2097307
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097180.mft	 2097308-2097309
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097182.mft	 2097310-2097311
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097200.mft	 2097328-2097329
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097202.mft	 2097330-2097331
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097204.mft	 2097332-2097333
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097206.mft	 2097334-2097335
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097208.mft	 2097336-2097337
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097210.mft	 2097338-2097339
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097212.mft	 2097340-2097341
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097214.mft	 2097342-2097343
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097216.mft	 2097344-2097345
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097218.mft	 2097346-2097347
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097220.mft	 2097348-2097349
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097222.mft	 2097350-2097351
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097224.mft	 2097352-2097353
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097226.mft	 2097354-2097355
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097228.mft	 2097356-2097357
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097230.mft	 2097358-2097359
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097232.mft	 2097360-2097361
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097234.mft	 2097362-2097363
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2097236.mft	 2097364-2097365
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\32.1/f2197261.txt	 2197389-2197389
+Elapsed time 0h00m03s
+Pass 1 +17 files
+xz: 15/15 recovered
+txt: 2/2 recovered
+Total: 17 files found
+
+1370284 sectors contain unknown data, 0 invalid files found and rejected.
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 19:10:35 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33 /cmd C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716891022383-sibal.001 search C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716891022383-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg - 582 B - CHS 1 255 63 (RO), sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716891022383-sibal.001 - 1572 MB / 1500 MiB (RO)
+Partition table type: Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+blocksize=512, offset=0
+Elapsed time 0h00m01s
+Pass 1 (blocksize=512) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f0000016.mft	 144-145
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f0000018.mft	 146-147
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f0000020.mft	 148-149
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f0000022.mft	 150-151
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1248749.xz	 1248877-1249520
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1249393.xz	 1249521-1250793
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1250666.xz	 1250794-1264090
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1263963.xz	 1264091-1273784
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1273657.xz	 1273785-1277971
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1277844.xz	 1277972-1278113
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1277986.xz	 1278114-1280038
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1279911.xz	 1280039-1286545
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1286418.xz	 1286546-1298658
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1298531.xz	 1298659-1299070
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1298943.xz	 1299071-1299825
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1299698.xz	 1299826-1303912
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1303785.xz	 1303913-1314882
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1314755.xz	 1314883-1315637
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f1315510.xz	 1315638-2079981
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2079955.mft	 2080083-2080084
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2096985.txt	 2097113-2097114
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097152.mft	 2097280-2097281
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097154.mft	 2097282-2097283
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097156.mft	 2097284-2097285
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097158.mft	 2097286-2097287
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097160.mft	 2097288-2097289
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097162.mft	 2097290-2097291
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097164.mft	 2097292-2097293
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097166.mft	 2097294-2097295
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097168.mft	 2097296-2097297
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097170.mft	 2097298-2097299
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097172.mft	 2097300-2097301
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097174.mft	 2097302-2097303
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097176.mft	 2097304-2097305
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097178.mft	 2097306-2097307
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097180.mft	 2097308-2097309
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097182.mft	 2097310-2097311
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097200.mft	 2097328-2097329
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097202.mft	 2097330-2097331
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097204.mft	 2097332-2097333
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097206.mft	 2097334-2097335
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097208.mft	 2097336-2097337
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097210.mft	 2097338-2097339
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097212.mft	 2097340-2097341
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097214.mft	 2097342-2097343
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097216.mft	 2097344-2097345
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097218.mft	 2097346-2097347
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097220.mft	 2097348-2097349
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097222.mft	 2097350-2097351
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097224.mft	 2097352-2097353
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097226.mft	 2097354-2097355
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097228.mft	 2097356-2097357
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097230.mft	 2097358-2097359
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097232.mft	 2097360-2097361
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097234.mft	 2097362-2097363
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2097236.mft	 2097364-2097365
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\33.1/f2197261.txt	 2197389-2197389
+Elapsed time 0h00m02s
+Pass 1 +17 files
+xz: 15/15 recovered
+txt: 2/2 recovered
+Total: 17 files found
+
+1370284 sectors contain unknown data, 0 invalid files found and rejected.
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 19:13:32 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\34 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716891197237-sibal.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716891197237-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+Pass 0 (blocksize=65536) STATUS_FIND_OFFSET
+blocksize=65536, offset=0
+Elapsed time 0h00m01s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\34.1/f0000640.webp	 2202240-2202751
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\34.1/f0001152.webp	 2202752-2203263
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\34.1/f0828032.txt	 3029632-3029759
+Elapsed time 0h00m01s
+Pass 1 +3 files
+riff: 2/2 recovered
+txt: 1/1 recovered
+Total: 3 files found
+
+869248 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 19:27:39 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35 /cmd C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716892051540-sibal.001 search C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716892051540-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg - 582 B - CHS 1 255 63 (RO), sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716892051540-sibal.001 - 1572 MB / 1500 MiB (RO)
+Partition table type: Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+blocksize=512, offset=0
+Elapsed time 0h00m01s
+Pass 1 (blocksize=512) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f0000016.mft	 144-145
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f0000018.mft	 146-147
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f0000020.mft	 148-149
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f0000022.mft	 150-151
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1248749.xz	 1248877-1249520
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1249393.xz	 1249521-1250793
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1250666.xz	 1250794-1264090
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1263963.xz	 1264091-1273784
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1273657.xz	 1273785-1277971
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1277844.xz	 1277972-1278113
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1277986.xz	 1278114-1280038
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1279911.xz	 1280039-1286545
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1286418.xz	 1286546-1298658
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1298531.xz	 1298659-1299070
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1298943.xz	 1299071-1299825
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1299698.xz	 1299826-1303912
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1303785.xz	 1303913-1314882
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1314755.xz	 1314883-1315637
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f1315510.xz	 1315638-2079981
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2079955.mft	 2080083-2080084
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2096985.txt	 2097113-2097114
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097152.mft	 2097280-2097281
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097154.mft	 2097282-2097283
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097156.mft	 2097284-2097285
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097158.mft	 2097286-2097287
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097160.mft	 2097288-2097289
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097162.mft	 2097290-2097291
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097164.mft	 2097292-2097293
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097166.mft	 2097294-2097295
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097168.mft	 2097296-2097297
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097170.mft	 2097298-2097299
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097172.mft	 2097300-2097301
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097174.mft	 2097302-2097303
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097176.mft	 2097304-2097305
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097178.mft	 2097306-2097307
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097180.mft	 2097308-2097309
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097182.mft	 2097310-2097311
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097200.mft	 2097328-2097329
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097202.mft	 2097330-2097331
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097204.mft	 2097332-2097333
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097206.mft	 2097334-2097335
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097208.mft	 2097336-2097337
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097210.mft	 2097338-2097339
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097212.mft	 2097340-2097341
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097214.mft	 2097342-2097343
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097216.mft	 2097344-2097345
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097218.mft	 2097346-2097347
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097220.mft	 2097348-2097349
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097222.mft	 2097350-2097351
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097224.mft	 2097352-2097353
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097226.mft	 2097354-2097355
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097228.mft	 2097356-2097357
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097230.mft	 2097358-2097359
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097232.mft	 2097360-2097361
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097234.mft	 2097362-2097363
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2097236.mft	 2097364-2097365
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.1/f2197261.txt	 2197389-2197389
+Elapsed time 0h00m02s
+Pass 1 +17 files
+xz: 15/15 recovered
+txt: 2/2 recovered
+Total: 17 files found
+
+1370284 sectors contain unknown data, 0 invalid files found and rejected.
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 19:28:05 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35 /cmd C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716892051540-sibal.001 search C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716892051540-sibal.001 - 1572 MB / 1500 MiB - CHS 192 255 63 , sector size=512
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\.photorec.cfg - 582 B - CHS 1 255 63 (RO), sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716892051540-sibal.001 - 1572 MB / 1500 MiB (RO)
+Partition table type: Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+blocksize=512, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=512) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f0000016.mft	 144-145
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f0000018.mft	 146-147
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f0000020.mft	 148-149
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f0000022.mft	 150-151
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1248749.xz	 1248877-1249520
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1249393.xz	 1249521-1250793
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1250666.xz	 1250794-1264090
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1263963.xz	 1264091-1273784
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1273657.xz	 1273785-1277971
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1277844.xz	 1277972-1278113
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1277986.xz	 1278114-1280038
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1279911.xz	 1280039-1286545
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1286418.xz	 1286546-1298658
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1298531.xz	 1298659-1299070
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1298943.xz	 1299071-1299825
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1299698.xz	 1299826-1303912
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1303785.xz	 1303913-1314882
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1314755.xz	 1314883-1315637
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f1315510.xz	 1315638-2079981
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2079955.mft	 2080083-2080084
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2096985.txt	 2097113-2097114
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097152.mft	 2097280-2097281
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097154.mft	 2097282-2097283
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097156.mft	 2097284-2097285
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097158.mft	 2097286-2097287
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097160.mft	 2097288-2097289
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097162.mft	 2097290-2097291
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097164.mft	 2097292-2097293
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097166.mft	 2097294-2097295
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097168.mft	 2097296-2097297
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097170.mft	 2097298-2097299
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097172.mft	 2097300-2097301
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097174.mft	 2097302-2097303
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097176.mft	 2097304-2097305
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097178.mft	 2097306-2097307
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097180.mft	 2097308-2097309
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097182.mft	 2097310-2097311
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097200.mft	 2097328-2097329
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097202.mft	 2097330-2097331
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097204.mft	 2097332-2097333
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097206.mft	 2097334-2097335
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097208.mft	 2097336-2097337
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097210.mft	 2097338-2097339
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097212.mft	 2097340-2097341
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097214.mft	 2097342-2097343
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097216.mft	 2097344-2097345
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097218.mft	 2097346-2097347
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097220.mft	 2097348-2097349
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097222.mft	 2097350-2097351
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097224.mft	 2097352-2097353
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097226.mft	 2097354-2097355
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097228.mft	 2097356-2097357
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097230.mft	 2097358-2097359
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097232.mft	 2097360-2097361
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097234.mft	 2097362-2097363
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2097236.mft	 2097364-2097365
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\35.2/f2197261.txt	 2197389-2197389
+Elapsed time 0h00m01s
+Pass 1 +17 files
+xz: 15/15 recovered
+txt: 2/2 recovered
+Total: 17 files found
+
+1370284 sectors contain unknown data, 0 invalid files found and rejected.
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 19:45:06 2024
+Command line: PhotoRec /log /d C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38 /cmd C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\uploads\\1716893098227-sibal.001 search C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\.photorec.cfg
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\uploads\\1716893098227-sibal.001 - 1572 MB / 1500 MiB - CHS 192 , sector size=512
+Disk C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\.photorec.cfg - 599 B - CHS 1 255 63 (RO), sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+Disk C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\uploads\\1716893098227-sibal.001 - 1572 MB / 1500 MiB (RO)
+Partition table type: Intel
+Geometry from i386 MBR: head=255 sector=63
+check_FAT: Unusual number of reserved sectors 6 (FAT), should be 1.
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+ 2 P FAT16 LBA              137  11  3   489 102 61    5660672 [NO NAME]
+     FAT16, blocksize=65536, 2898 MB / 2764 MiB
+741 first-level signatures enabled
+
+Analyse
+ 1 * HPFS - NTFS              0   2  3   137  11  2    2201472 [UUI]
+     NTFS, blocksize=4096, 1127 MB / 1074 MiB
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+blocksize=512, offset=0
+Elapsed time 0h00m01s
+Pass 1 (blocksize=512) STATUS_EXT2_OFF
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f0000016.mft	 144-145
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f0000018.mft	 146-147
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f0000020.mft	 148-149
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f0000022.mft	 150-151
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1248749.xz	 1248877-1249520
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1249393.xz	 1249521-1250793
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1250666.xz	 1250794-1264090
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1263963.xz	 1264091-1273784
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1273657.xz	 1273785-1277971
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1277844.xz	 1277972-1278113
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1277986.xz	 1278114-1280038
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1279911.xz	 1280039-1286545
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1286418.xz	 1286546-1298658
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1298531.xz	 1298659-1299070
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1298943.xz	 1299071-1299825
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1299698.xz	 1299826-1303912
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1303785.xz	 1303913-1314882
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1314755.xz	 1314883-1315637
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f1315510.xz	 1315638-2079981
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2079955.mft	 2080083-2080084
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2096985.txt	 2097113-2097114
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097152.mft	 2097280-2097281
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097154.mft	 2097282-2097283
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097156.mft	 2097284-2097285
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097158.mft	 2097286-2097287
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097160.mft	 2097288-2097289
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097162.mft	 2097290-2097291
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097164.mft	 2097292-2097293
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097166.mft	 2097294-2097295
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097168.mft	 2097296-2097297
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097170.mft	 2097298-2097299
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097172.mft	 2097300-2097301
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097174.mft	 2097302-2097303
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097176.mft	 2097304-2097305
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097178.mft	 2097306-2097307
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097180.mft	 2097308-2097309
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097182.mft	 2097310-2097311
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097200.mft	 2097328-2097329
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097202.mft	 2097330-2097331
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097204.mft	 2097332-2097333
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097206.mft	 2097334-2097335
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097208.mft	 2097336-2097337
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097210.mft	 2097338-2097339
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097212.mft	 2097340-2097341
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097214.mft	 2097342-2097343
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097216.mft	 2097344-2097345
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097218.mft	 2097346-2097347
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097220.mft	 2097348-2097349
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097222.mft	 2097350-2097351
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097224.mft	 2097352-2097353
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097226.mft	 2097354-2097355
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097228.mft	 2097356-2097357
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097230.mft	 2097358-2097359
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097232.mft	 2097360-2097361
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097234.mft	 2097362-2097363
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2097236.mft	 2097364-2097365
+C:\\Users\\ddong\\OneDrive\\Desktop\\disk-image-recovery\\temp\\38.1/f2197261.txt	 2197389-2197389
+Elapsed time 0h00m02s
+Pass 1 +17 files
+xz: 15/15 recovered
+txt: 2/2 recovered
+Total: 17 files found
+
+1370284 sectors contain unknown data, 0 invalid files found and rejected.
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Tue May 28 20:07:56 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\39 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716894456990-RAW.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716894456990-RAW.001 - 1572 MB / 1500 MiB - CHS 192 255 63 (R, sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 P HPFS - NTFS              0  32 33 15297 217 24  245757952
+     exFAT, blocksize=131072, 125 GB / 117 GiB
+741 first-level signatures enabled
+
+Analyse
+ 1 P HPFS - NTFS              0  32 33 15297 217 24  245757952
+     exFAT, blocksize=131072, 125 GB / 117 GiB
+Pass 0 (blocksize=131072) STATUS_FIND_OFFSET
+blocksize=131072, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=131072) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\39.1/f0011520.jpg	 13568-13823
+Elapsed time 0h00m01s
+Pass 1 +1 file
+jpg: 1/1 recovered
+Total: 1 file found
+
+3069696 sectors contain unknown data, 0 invalid files found and rejected.
+
+Using locale 'C.UTF-8'.
+
+
+Wed May 29 16:12:31 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\56 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716966716804-RAW.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Wed May 29 16:12:42 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\56 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716966716804-RAW.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716966716804-RAW.001 - 1572 MB / 1500 MiB - CHS 192 255 63 (R, sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716966716804-RAW.001 - 1572 MB / 1500 MiB - CHS 192 255 63 (R, sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 P HPFS - NTFS              0  32 33 15297 217 24  245757952
+     exFAT, blocksize=131072, 125 GB / 117 GiB
+741 first-level signatures enabled
+
+Analyse
+ 1 P HPFS - NTFS              0  32 33 15297 217 24  245757952
+     exFAT, blocksize=131072, 125 GB / 117 GiB
+Pass 0 (blocksize=131072) STATUS_FIND_OFFSET
+blocksize=131072, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=131072) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\56.1/f0011520.jpg	 13568-13823
+Elapsed time 0h00m01s
+Pass 1 +1 file
+jpg: 1/1 recovered
+Total: 1 file found
+
+3069696 sectors contain unknown data, 0 invalid files found and rejected.
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+
+
+Wed May 29 16:32:35 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\60 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716967938182-RAW.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Wed May 29 16:32:51 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\60 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716967938182-RAW.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716967938182-RAW.001 - 1572 MB / 1500 MiB - CHS 192 255 63 (R, sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+
+
+Wed May 29 21:46:22 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\72 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716986772491-RAW.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716986772491-RAW.001 - 1572 MB / 1500 MiB - CHS 192 255 63 (R, sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Thu May 30 19:51:19 2024
+Command line: PhotoRec /log /d C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\106 C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1717066270643-RAW.001
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin32 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1717066270643-RAW.001 - 1572 MB / 1500 MiB - CHS 192 255 63 (R, sector size=512
+
+Load parameters from C:\Users\ddong\photorec.cfg
+Can't open photorec.ses file: No such file or directory
+Partition table type (auto): Intel
+Geometry from i386 MBR: head=255 sector=63
+     No partition             0   0  1   191  56 57    3072000 [Whole disk]
+ 1 P HPFS - NTFS              0  32 33 15297 217 24  245757952
+     exFAT, blocksize=131072, 125 GB / 117 GiB
+741 first-level signatures enabled
+
+Analyse
+ 1 P HPFS - NTFS              0  32 33 15297 217 24  245757952
+     exFAT, blocksize=131072, 125 GB / 117 GiB
+Pass 0 (blocksize=131072) STATUS_FIND_OFFSET
+blocksize=131072, offset=0
+Elapsed time 0h00m00s
+Pass 1 (blocksize=131072) STATUS_EXT2_OFF
+C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\temp\106.1/f0011520.jpg	 13568-13823
+Elapsed time 0h00m00s
+Pass 1 +1 file
+jpg: 1/1 recovered
+Total: 1 file found
+
+3069696 sectors contain unknown data, 0 invalid files found and rejected.
+
+PhotoRec exited normally.
+
+Using locale 'C.UTF-8'.
+
+
+Mon Jun  3 23:42:24 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\4 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717425740468-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Mon Jun  3 23:43:10 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\4 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717425740468-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\admin\Desktop\disk-image-recovery\uploads\1717425740468-image_folder.iso - 1245 KB / 1216 KiB - CHS 1 255 63 (RO), sector size=512
+
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+
+
+
+Using locale 'C.UTF-8'.
+
+
+Mon Jun  3 23:57:17 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\6 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717426584272-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Tue Jun  4 00:01:00 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\6 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717426584272-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\admin\Desktop\disk-image-recovery\uploads\1717426584272-image_folder.iso - 1245 KB / 1216 KiB - CHS 1 255 63 (RO), sector size=512
+
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+
+
+Tue Jun  4 00:05:18 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\6 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717426584272-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\admin\Desktop\disk-image-recovery\uploads\1717426584272-image_folder.iso - 1245 KB / 1216 KiB - CHS 1 255 63 (RO), sector size=512
+
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+
+
+
+Using locale 'C.UTF-8'.
+
+
+Tue Jun  4 00:15:35 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\7 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717427731795-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\admin\Desktop\disk-image-recovery\uploads\1717427731795-image_folder.iso - 1245 KB / 1216 KiB - CHS 1 255 63 (RO), sector size=512
+
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+
+Using locale 'C.UTF-8'.
+
+
+Tue Jun  4 00:21:43 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\7 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717427731795-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\admin\Desktop\disk-image-recovery\uploads\1717427731795-image_folder.iso - 1245 KB / 1216 KiB - CHS 1 255 63 (RO), sector size=512
+
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+
+Using locale 'C.UTF-8'.
+
+
+Tue Jun  4 00:31:36 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\7 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717427731795-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+
+Using locale 'C.UTF-8'.
+
+
+Tue Jun  4 00:40:53 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\7 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717427731795-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+
+
+Tue Jun  4 12:51:13 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\8 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717429287261-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+Using locale 'C.UTF-8'.
+
+
+Thu Jun  6 14:28:59 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\10 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717651732877-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+Hard disk list
+Disk C:\Users\admin\Desktop\disk-image-recovery\uploads\1717651732877-image_folder.iso - 1245 KB / 1216 KiB - CHS 1 255 63 (RO), sector size=512
+
+Can't open photorec.ses file: No such file or directory
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
+
+Using locale 'C.UTF-8'.
+
+
+Fri Jun  7 00:34:06 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery\temp\12 C:\Users\admin\Desktop\disk-image-recovery\uploads\1717655203218-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1
+
+
+
+
+

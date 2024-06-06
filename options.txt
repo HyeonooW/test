@@ -1,0 +1,17 @@
+
+disk C:\Users\ddong\OneDrive\Desktop\disk-image-recovery\uploads\1716966494004-RAW.001
+partition_none
+fileopt
+Enable jpg
+Enable png
+Enable gif
+Enable pdf
+Enable doc
+Enable xls
+Enable ppt
+Enable zip
+Enable cr2
+Enable nrw
+Enable raf
+Enable rw2
+search
