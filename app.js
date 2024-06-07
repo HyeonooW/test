@@ -4,10 +4,39 @@ const path = require("path");
 const { spawn } = require("child_process");
 const fs = require("fs");
 const ejs = require("ejs");
-const mysql = require("mysql2");
+const mongoose = require("mongoose");
 
 const app = express();
 const port = 3000;
+
+// MongoDB 설정
+mongoose.connect("mongodb://localhost:27017/file_recovery", { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    console.log("MongoDB에 연결되었습니다.");
+  })
+  .catch((err) => {
+    console.error("MongoDB 연결 오류:", err);
+  });
+
+// 모델 정의
+const UploadSchema = new mongoose.Schema({
+  original_filename: String,
+  file_path: String,
+});
+
+const OutputSchema = new mongoose.Schema({
+  upload_id: mongoose.Schema.Types.ObjectId,
+  filename: String,
+  file_path: String,
+});
+
+const Upload = mongoose.model("Upload", UploadSchema);
+const Output = mongoose.model("Output", OutputSchema);
+
+// 서버를 MongoDB 연결 후 시작합니다.
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}/`);
+});
 
 // Multer 설정
 const storage = multer.diskStorage({
@@ -25,49 +54,26 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
-const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "0000",
-  database: "file_recovery",
-});
-
-db.connect((err) => {
-  if (err) {
-    console.error("Database connection failed:", err.stack);
-    return;
-  }
-  console.log("Connected to database.");
-});
-
 app.set("view engine", "html");
 app.engine("html", ejs.renderFile);
 app.set("views", path.join(__dirname, "views"));
 
-app.get("/", (req, res) => {
-  db.query("SELECT * FROM uploads", (err, uploadsResults) => {
-    if (err) {
-      console.error("Error fetching uploads from DB:", err);
-      return res.status(500).send("Internal Server Error");
-    }
+app.get("/", async (req, res) => {
+  try {
+    const uploadsResults = await Upload.find({});
+    const recoveredResults = await Output.distinct("upload_id");
 
-    db.query("SELECT DISTINCT upload_id FROM output", (err, recoveredResults) => {
-      if (err) {
-        console.error("Error fetching recovered files from DB:", err);
-        return res.status(500).send("Internal Server Error");
-      }
-
-      const recoveredFiles = recoveredResults.map((row) => row.upload_id);
-
-      res.render("index", {
-        uploads: uploadsResults,
-        recoveredFiles: recoveredFiles,
-      });
+    res.render("index", {
+      uploads: uploadsResults,
+      recoveredFiles: recoveredResults,
     });
-  });
+  } catch (err) {
+    console.error("Error fetching data from DB:", err);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
-app.post("/upload", upload.single("file"), (req, res) => {
+app.post("/upload", upload.single("file"), async (req, res) => {
   if (!req.file) {
     return res.status(400).send("No file uploaded");
   }
@@ -75,38 +81,28 @@ app.post("/upload", upload.single("file"), (req, res) => {
   const originalFilename = req.file.originalname;
   const filePath = req.file.path;
 
-  db.query(
-    "INSERT INTO uploads (original_filename, file_path) VALUES (?, ?)",
-    [originalFilename, filePath],
-    (err, result) => {
-      if (err) {
-        console.error("Error saving upload to DB:", err);
-        return res.status(500).send("Internal Server Error: " + err.message);
-      }
-      res.redirect("/");
-    }
-  );
+  try {
+    await Upload.create({ original_filename: originalFilename, file_path: filePath });
+    res.redirect("/");
+  } catch (err) {
+    console.error("Error saving upload to DB:", err);
+    res.status(500).send("Internal Server Error: " + err.message);
+  }
 });
 
-app.get("/recover/:id", (req, res) => {
+app.get("/recover/:id", async (req, res) => {
   app.use(express.static(path.join(__dirname, 'views')));
   const uploadId = req.params.id;
 
-  db.query("SELECT * FROM uploads WHERE id = ?", [uploadId], (err, results) => {
-    if (err) {
-      console.error("Error fetching upload from DB:", err);
-      return res.status(500).send("Internal Server Error");
-    }
-
-    if (results.length === 0) {
+  try {
+    const file = await Upload.findById(uploadId);
+    if (!file) {
       return res.status(404).send("File not found");
     }
 
-    const file = results[0];
     const tempFilePath = path.join(__dirname, file.file_path);
-
-    const outputDir = path.join(__dirname, "temp", file.id.toString());
-    const recoveredDir = path.join(__dirname, "recovered_files", file.id.toString());
+    const outputDir = path.join(__dirname, "temp", file._id.toString());
+    const recoveredDir = path.join(__dirname, "recovered_files", file._id.toString());
     const logFilePath = path.join(__dirname, `photorec_log_${uploadId}.txt`);
     console.log(`Output Directory: ${outputDir}`);
     console.log(`Recovered Directory: ${recoveredDir}`);
@@ -155,7 +151,7 @@ app.get("/recover/:id", (req, res) => {
           return;
         }
 
-        setTimeout(() => {
+        setTimeout(async () => {
           const getAllFiles = (dirPath, arrayOfFiles) => {
             let files = fs.readdirSync(dirPath);
 
@@ -180,7 +176,7 @@ app.get("/recover/:id", (req, res) => {
             return res.status(500).send("No files recovered");
           }
 
-          const insertRecoveredFiles = async (recoveredFiles) => {
+          try {
             for (const filePath of recoveredFiles) {
               const filename = path.basename(filePath);
               const destinationPath = path.join(recoveredDir, filename);
@@ -190,75 +186,55 @@ app.get("/recover/:id", (req, res) => {
 
               console.log(`Inserting into DB - File: ${filename}, Path: ${destinationPath}`);
 
-              await new Promise((resolve, reject) => {
-                db.query(
-                  "INSERT INTO output (upload_id, filename, file_path) VALUES (?, ?, ?)",
-                  [uploadId, filename, destinationPath],
-                  (err) => {
-                    if (err) {
-                      console.error("Error saving output to DB:", err);
-                      reject(err);
-                    } else {
-                      console.log(`Successfully inserted - File: ${filename}`);
-                      resolve();
-                    }
-                  }
-                );
-              });
+              await Output.create({ upload_id: uploadId, filename, file_path: destinationPath });
             }
-          };
+            fs.unlinkSync(tempFilePath);
+            fs.rmSync(outputDir, { recursive: true, force: true });
 
-          insertRecoveredFiles(recoveredFiles)
-            .then(() => {
-              fs.unlinkSync(tempFilePath);
-              fs.rmSync(outputDir, { recursive: true, force: true });
-
-              res.redirect(`/results/${uploadId}`);
-            })
-            .catch((err) => {
-              console.error("Error inserting recovered files:", err);
-              res.status(500).send("Internal Server Error");
-            });
+            res.redirect(`/results/${uploadId}`);
+          } catch (err) {
+            console.error("Error inserting recovered files:", err);
+            res.status(500).send("Internal Server Error");
+          }
         }, 5000); // 5초 대기 후 파일 확인
       });
     };
 
-    runPhotoRec(tempFilePath, outputDir, res, file.id, recoveredDir);
-  });
+    runPhotoRec(tempFilePath, outputDir, res, file._id, recoveredDir);
+  } catch (err) {
+    console.error("Error fetching upload from DB:", err);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
-app.post("/delete/:id", (req, res) => {
+app.post("/delete/:id", async (req, res) => {
   const uploadId = req.params.id;
 
-  db.query("DELETE FROM uploads WHERE id = ?", [uploadId], (err, results) => {
-    if (err) {
-      console.error("Error deleting upload from DB:", err);
-      return res.status(500).send("Internal Server Error");
-    }
+  try {
+    await Upload.deleteOne({ _id: uploadId });
     res.redirect("/");
-  });
+  } catch (err) {
+    console.error("Error deleting upload from DB:", err);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
-app.get("/results/:uploadId", (req, res) => {
+app.get("/results/:uploadId", async (req, res) => {
   const uploadId = req.params.uploadId;
 
-  db.query(
-    "SELECT filename, file_path FROM output WHERE upload_id = ?",
-    [uploadId],
-    (err, results) => {
-      if (err) {
-        console.error("Error fetching results from DB:", err);
-        return res.status(500).send("Internal Server Error");
-      }
+  try {
+    const results = await Output.find({ upload_id: uploadId });
 
-      const files = results.map((row) => ({
-        filename: row.filename,
-        filePath: row.file_path,
-      }));
-      console.log(`Files in results: ${files}`);
-      res.render("results", { files });
-    }
-  );
+    const files = results.map((row) => ({
+      filename: row.filename,
+      filePath: row.file_path,
+    }));
+    console.log(`Files in results: ${files}`);
+    res.render("results", { files });
+  } catch (err) {
+    console.error("Error fetching results from DB:", err);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
 app.get("/download/:uploadId/:filename", (req, res) => {
@@ -272,8 +248,4 @@ app.get("/download/:uploadId/:filename", (req, res) => {
       res.status(500).send("Internal Server Error");
     }
   });
-});
-
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
 });

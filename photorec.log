@@ -2331,3 +2331,6 @@ ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-tur
 
 
 
+
+Using locale 'C.UTF-8'.
+SIGHUP detected! PhotoRec has been killed.
