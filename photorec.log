@@ -2334,3 +2334,17 @@ ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-tur
 
 Using locale 'C.UTF-8'.
 SIGHUP detected! PhotoRec has been killed.
+
+
+Using locale 'C.UTF-8'.
+
+
+Fri Jun  7 22:53:33 2024
+Command line: PhotoRec /log /d C:\Users\admin\Desktop\disk-image-recovery_m\temp\66630a7a9f49d53c0c66271b C:\Users\admin\Desktop\disk-image-recovery_m\uploads\1717766778307-image_folder.iso
+
+PhotoRec 7.2, Data Recovery Utility, February 2024
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Windows 8 (9200)
+Compiler: GCC 11.2, Cygwin 3001.4
+ext2fs lib: 1.45.3, ntfs lib: available, ewf lib: 20140608, libjpeg: libjpeg-turbo-1.5.3, curses lib: ncurses 6.1

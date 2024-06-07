@@ -10,7 +10,7 @@ const app = express();
 const port = 3000;
 
 // MongoDB 설정
-mongoose.connect("mongodb://localhost:27017/file_recovery", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb://localhost:27017/file_recovery")
   .then(() => {
     console.log("MongoDB에 연결되었습니다.");
   })
