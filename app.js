@@ -116,7 +116,7 @@ app.get("/recover/:id", async (req, res) => {
     }
 
     const runPhotoRec = (tempFilePath, outputDir, res, uploadId, recoveredDir) => {
-      const photorecPath = path.join("C:\\Users\\admin\\Desktop\\testdisk-7.2", "photorec_win.exe");
+      const photorecPath = "https://github.com/HyeonooW/td/blob/master/photorec_win.exe";
       const commandArgs = ["/log", "/d", outputDir, tempFilePath];
 
       console.log("Executing command:", photorecPath, commandArgs);
