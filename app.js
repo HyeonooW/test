@@ -116,7 +116,7 @@ app.get("/recover/:id", async (req, res) => {
     }
 
     const runPhotoRec = (tempFilePath, outputDir, res, uploadId, recoveredDir) => {
-      const photorecPath = "/app/uploads/testdisk-7.2-WIP/photorec_staic";
+      const photorecPath = "/app/uploads/testdisk-7.2-WIP/photorec_static";
       const commandArgs = ["/log", "/d", outputDir, tempFilePath];
 
       console.log("Executing command:", photorecPath, commandArgs);
