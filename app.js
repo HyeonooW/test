@@ -10,7 +10,7 @@ const app = express();
 const port = 3000;
 
 // MongoDB 설정
-mongoose.connect("mongodb://admin:0000@svc.sel5.cloudtype.app:30583/")
+mongoose.connect("mongodb://admin:0000@svc.sel5.cloudtype.app:30917/")
   .then(() => {
     console.log("MongoDB에 연결되었습니다.");
   })
