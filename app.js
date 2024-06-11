@@ -101,7 +101,7 @@ app.get("/recover/:id", async (req, res) => {
     }
 
     const tempFilePath = path.join(__dirname, file.file_path);
-    const outputDir = path.join(__dirname, "temp", file._id.toString());
+    const outputDir = path.join(__dirname, "output", file._id.toString());
     const recoveredDir = path.join(__dirname, "recovered_files", file._id.toString());
     const logFilePath = path.join(__dirname, `photorec_log_${uploadId}.txt`);
     console.log(`Output Directory: ${outputDir}`);
